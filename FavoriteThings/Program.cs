@@ -39,10 +39,10 @@ namespace FavoriteThings
             var tallulah = new Kid("Tallulah", 2);
             var emory = new Kid("Emory", 7);
 
+            tallulah.PutDown(TypeOfSleep.Nap);
             tallulah.PlayWith(TypeOfPlay.Monster);
             tallulah.PlayWith(TypeOfPlay.Reading);
-            emory.PlayWith(TypeOfPlay.Wrestling);
-            emory.PlayWith(TypeOfPlay.Wrestling);
+            tallulah.Feed(TypeOfFood.Snack);
             emory.PlayWith(TypeOfPlay.Wrestling);
             emory.PlayWith(TypeOfPlay.Wrestling);
             emory.PlayWith(TypeOfPlay.Wrestling);
